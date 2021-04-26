@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 75px;
+    height: 25px;
+}
+.container{
+    overflow-x: hidden;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    padding: 10px 0;
+    top: 0;
+    position: sticky;
+    background-color: rgb(220, 233, 220);
+}
+.creation{
+    padding: 0 10px;
+    height: 25px;
+    background: none;
+    border: none;
+}
+.liner{
+    padding: 0 30px;
+}
+.list{
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+    padding: 0 25px;
+}
+.bort{
+    padding: 0;
+}
+.mart{
+    /* margin: 0 175px; */
+    margin-right: 0px;
+}
+.law{
+    margin: auto 0;
+    margin-right: 25px;
+}
+.links{
+    padding: 0;
+}
+.feat{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    color: white;
+    background-color: blue;
+}
+.manage{
+    width: 150px;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 16px;
+    color: blue;
+    background-color: white;
+    border-radius: 50px;
+    margin: 20px;
+}
+.manage:hover{
+    cursor: pointer;
+}
+.start{
+    display: flex;
+    flex-direction: column;
+}
+.velo{
+    display: flex;
+    flex-direction: row;
+    padding: 25px 0;
+}
+.pool{
+    list-style: none;
+}
+.were{
+    text-decoration: none;
+    padding: 0 30px;
+    color: white;
+    font-size: 18px;
+}
+.were:hover{
+    text-decoration: underline;
+    color: darkorange;
+    font-weight: bold;
+}
+.host{
+    max-width: 90%;
+    margin: auto;
+}
+.web{
+    width: 25px;
+    height: 25px;
+    background: none;
+}
+.sign{
+    padding: 5px 20px;
+    border-radius: 50px;
+    color: blue;
+    border: 1px solid blue;
+}
+.sign:hover{
+    cursor: pointer;
+    background-color: rgb(211, 208, 208);
+}
+.blue{
+    width: 1200px;
+}
+.face{
+    width: 25px;
+    padding: 0 5px;
+}
+.face:hover{
+    cursor: pointer;
+}
+.pin{
+    height: 25px;
+}
+.ace{
+    filter: invert(100%);
+}
+.second{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 50px;
+}
+.back{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.cate{
+    font-size: 50px;
+    padding: 25px;
+}
+.sec{
+    max-width: 450px;
+    padding: 25px;
+    font-size: 20px;
+}
+.host{
+    padding: 0 25px;
+    width: 100%;
+}
+.blue{
+    margin: 25px;
+}
+.stun{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+.pass{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.tempt{
+    font-size: 25px;
+    padding: 10px;
+    max-width: 250px;
+}
+.part{
+    max-width: 250px;
+    padding: 10px;
+}
+.kit{
+    padding: 10px 30px;
+}
+.third{
+    padding: 50px;
+}
+.hey{
+    font-size: 45px;
+    padding: 0 30px;
+}
+.loose{
+    padding: 20px 40px;
+    margin: 30px;
+    color: white;
+    background-color: black;
+    border-radius: 50px;
+}
+.loose:hover{
+    cursor: pointer;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 50px;
+}
+.foot{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+.premium{
+    text-decoration: none;
+    color: rgb(75, 75, 75);
+    padding: 10px 0;
+}
+.premium:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.inc{
+    padding: 10px 0;
+    max-width: 250px;
+}
+.integer{
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* @media only screen and (max-width: 1200px){
+    .container{
+        flex-direction: column;
+    }   
+} */
